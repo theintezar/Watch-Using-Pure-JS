@@ -1,0 +1,45 @@
+#clockContainer{
+    position: relative;
+    height: 40vw;
+    width: 40vw;
+    background: url("https://etc.usf.edu/clipart/48400/48481/48481_nclockb_lg.gif") no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    margin: auto;
+
+}
+
+#hour, #minute, #second{
+    position: absolute;
+     background-color: black; */
+    border-radius: 10px;
+
+}
+
+#hour {
+    width: 0.7%;
+    height: 23%;
+    top: 27%;
+    left: 49.5%;
+    border: 1px solid red;
+    transform-origin: bottom;
+}
+
+
+#minute{
+    width: 0.7%;
+    height: 31%;
+    top: 19%;
+    left: 49.5%;
+    border: 1px solid rgb(21, 17, 236);
+    transform-origin: bottom;
+}
+
+#second{
+    width: 0.2%;
+    height: 40%;
+    top: 10%;
+    left: 49.7%;
+    border: 1px solid rgb(9, 241, 40);
+    transform-origin: bottom;
+}
